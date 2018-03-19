@@ -157,11 +157,6 @@ Page({
       url: '../setting/setting'
     });
   },
-  //toCollectPage: function() {
-  //  wx.redirectTo( {
-  //    url: '../collect/collect'
-  //  });
-  //},
 
   toHomePage: function (e) {
     var _this = this;
@@ -211,22 +206,8 @@ Page({
       themeId: -1,
       pageData: pageData
     })
-    //_this.setData( {
-    //  pageData: data.stories,
-    //  background: data.background,
-    //  description: data.description,
-    //  editorData: data.editors
     slideDown.call(this);
-    //wx.setNavigationBarTitle( { title: data.name }); //设置标题
-
   },
-  //toThemePage: function( e ) {
-  //  var themeId = e.currentTarget.dataset.id;
-  //  console.log( 'themeId', themeId );
-  //  wx.navigateTo( {
-  //    url: '../theme/theme?themeId=' + themeId
-  //  });
-  //},
 
   //浮动球点击 侧栏展开
   ballClickEvent: function () {
