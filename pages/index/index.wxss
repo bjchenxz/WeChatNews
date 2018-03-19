@@ -1,3 +1,7 @@
+.main-list-header{
+  background: #20B4F0;
+  width: 100%;
+}
 .main-list-header .title,
 .main-list-header .date {
   display: inline-block;
