@@ -29,7 +29,7 @@ function getNewsDetail(newsId) {
  * @returns {string}
  */
 function getBeforeNews(date) {
-    return 'https://news.at.zhihu.com/api/4/news/before/' + date;
+    return API_V4 + '/news/before/' + date;
 }
 
 /**
